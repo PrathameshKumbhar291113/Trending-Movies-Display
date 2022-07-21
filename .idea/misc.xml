@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/drawable/ic_calander.xml" value="0.2095" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/drawable/ic_eye.xml" value="0.2095" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/drawable/ic_star.xml" value="0.2095" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/layout/activity_main.xml" value="0.19746376811594202" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/layout/activity_movie_detail.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
