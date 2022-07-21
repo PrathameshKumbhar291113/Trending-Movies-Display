@@ -1,15 +1,13 @@
 package com.example.moviedisplayapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import coil.load
-import com.example.moviedisplayapp.adapter.MoviesAdapter
-import com.example.moviedisplayapp.databinding.ActivityHomeBinding
 import com.example.moviedisplayapp.databinding.ActivityMovieDetailBinding
 import com.example.moviedisplayapp.models.Result
 
 class MovieDetailActivity : AppCompatActivity() {
-//again used view binding to bind the views
+//again used binding to bind the views
 
     private lateinit var binding: ActivityMovieDetailBinding
 

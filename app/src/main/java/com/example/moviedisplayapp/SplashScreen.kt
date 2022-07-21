@@ -1,13 +1,13 @@
 package com.example.moviedisplayapp
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import kotlinx.coroutines.delay
+import androidx.appcompat.app.AppCompatActivity
 import splitties.activities.start
 
+//Splash Screen of the application and implemented the splitties function
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
