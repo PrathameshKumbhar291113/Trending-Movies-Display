@@ -14,7 +14,7 @@ import java.net.SocketTimeoutException
 import java.net.UnknownHostException
 
 class HomeActivity : AppCompatActivity() {
-    //Here we have used the view binding to bind the views/ to set the data inside views
+    //Here we have used the view binding to bind the views to set the data inside views
 
     private lateinit var adapter: MoviesAdapter
     private lateinit var binding: ActivityHomeBinding
