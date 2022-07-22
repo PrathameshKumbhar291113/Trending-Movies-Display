@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.moviedisplayapp.databinding.ItemMoviesBinding
 import com.example.moviedisplayapp.models.Result
-// Movies Adapter is the Adapter for the recycler view, we have use the binding to bind views
+// Movies Adapter is the Adapter for the recycler view, we have use the view binding to bind views
 // and to bind image in the card view
 class MoviesAdapter(
     val onClick: (Result) -> Unit

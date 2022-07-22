@@ -7,7 +7,7 @@ import com.example.moviedisplayapp.databinding.ActivityMovieDetailBinding
 import com.example.moviedisplayapp.models.Result
 
 class MovieDetailActivity : AppCompatActivity() {
-//again used binding to bind the views
+//again used view binding to bind the views
 
     private lateinit var binding: ActivityMovieDetailBinding
 
