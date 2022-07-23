@@ -48,7 +48,12 @@ class HomeActivity : AppCompatActivity() {
         try {
             val movies = ApiService.restService.getTrendingMovies()
             if(!movies.results.isNullOrEmpty()) {
-                adapter.differ.submitList(movies.results)
+//                var pageNumber =1
+//                while (movies.page!!<=movies.total_pages!!){
+                    adapter.differ.submitList(movies.results)
+//                    pageNumber++
+//                }
+
             } else {
                 binding.root.snack("No movies are Trending! Everyone is watching Netflix")
             }

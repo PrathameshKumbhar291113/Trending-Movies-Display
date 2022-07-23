@@ -2,7 +2,6 @@ package com.example.moviedisplayapp.api
 
 
 import com.example.moviedisplayapp.BuildConfig
-import com.example.moviedisplayapp.Constants
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.OkHttpClient
