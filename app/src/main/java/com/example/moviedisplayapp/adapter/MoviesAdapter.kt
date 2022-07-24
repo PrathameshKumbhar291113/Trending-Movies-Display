@@ -7,19 +7,19 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.moviedisplayapp.databinding.ItemMoviesBinding
-import com.example.moviedisplayapp.models.Result
+import com.example.moviedisplayapp.models.ResultMovies
 // Movies Adapter is the Adapter for the recycler view, we have use the view binding to bind views
 // and to bind image in the card view
 class MoviesAdapter(
-    val onClick: (Result) -> Unit
+    val onClick: (ResultMovies) -> Unit
 ) : RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder>() {
 // Diff util is used to check the difference between the current list and the previous list
-    private val diffCallback = object : DiffUtil.ItemCallback<Result>() {
-        override fun areItemsTheSame(oldItem: Result, newItem: Result): Boolean {
+    private val diffCallback = object : DiffUtil.ItemCallback<ResultMovies>() {
+        override fun areItemsTheSame(oldItem: ResultMovies, newItem: ResultMovies): Boolean {
             return oldItem.id == newItem.id
         }
 
-        override fun areContentsTheSame(oldItem: Result, newItem: Result): Boolean {
+        override fun areContentsTheSame(oldItem: ResultMovies, newItem: ResultMovies): Boolean {
             return oldItem == newItem
         }
     }
@@ -45,7 +45,7 @@ class MoviesAdapter(
         val binding: ItemMoviesBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         //function to bind ViewHolder's UI with ItemPosition's Data
-        fun bind(result: Result) {
+        fun bind(result: ResultMovies) {
             //load image for Movie poster as we are only getting the image path from the api we are
             // using coil library to load the image from the given poster path
             binding.moviePoster.apply {

@@ -5,7 +5,7 @@ import androidx.annotation.Keep
 @Keep
 data class MoviesResponse(
     var page: Int? = null,
-    var results: List<Result>? = null,
+    var results: List<ResultMovies>? = null,
     var total_pages: Int? = null,
     var total_results: Int? = null
 )

@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import coil.load
 import com.example.moviedisplayapp.databinding.ActivityMovieDetailBinding
-import com.example.moviedisplayapp.models.Result
+import com.example.moviedisplayapp.models.ResultMovies
 
 class MovieDetailActivity : AppCompatActivity() {
 //again used view binding to bind the views
@@ -18,7 +18,7 @@ class MovieDetailActivity : AppCompatActivity() {
         binding = ActivityMovieDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 //Setting the data from the api to the views
-        val args = intent.getParcelableExtra<Result>("movie")
+        val args = intent.getParcelableExtra<ResultMovies>("movie")
         if (args != null){
             binding.moviePoster.apply {
                 load(

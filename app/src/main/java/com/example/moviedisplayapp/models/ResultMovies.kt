@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 //By using the JSON to kotlin data class plugin converted JSON to the dataClass
 @Keep
 @Parcelize
-data class Result(
+data class ResultMovies(
     var adult: Boolean? = null,
     var backdrop_path: String? = null,
     var genre_ids: List<Int>? = null,

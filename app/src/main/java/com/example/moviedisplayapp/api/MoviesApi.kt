@@ -13,6 +13,6 @@ interface MoviesApi {
     ) : MoviesResponse
     // path param of api - as we want trending + movie + week : in short weekly trending movies
     companion object {
-        const val TRENDING_MOVIES = "3/trending/all/week"
+        const val TRENDING_MOVIES = "3/trending/movie/week"
     }
 }

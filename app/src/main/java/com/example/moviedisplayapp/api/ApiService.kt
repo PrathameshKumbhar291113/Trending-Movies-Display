@@ -31,6 +31,7 @@ object ApiService {
                     .addLast(KotlinJsonAdapterFactory())
                     .build()
             )
-        ).build()
+        )
+        .client(client).build()
         .create(MoviesApi::class.java)
 }
