@@ -65,7 +65,8 @@ dependencies {
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     //Kotlin Image Loading Library
-    implementation "io.coil-kt:coil:1.4.0"
+    //    implementation "io.coil-kt:coil:1.4.0" -- old library of the coil
+    implementation "io.coil-kt:coil:2.1.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
